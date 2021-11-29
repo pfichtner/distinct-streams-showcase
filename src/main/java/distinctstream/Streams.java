@@ -1,4 +1,4 @@
-package lombokstreamporn;
+package distinctstream;
 
 import static java.util.Comparator.comparing;
 import static java.util.stream.Collectors.toCollection;

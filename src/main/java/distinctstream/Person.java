@@ -1,4 +1,4 @@
-package lombokstreamporn;
+package distinctstream;
 import lombok.Value;
 
 @Value

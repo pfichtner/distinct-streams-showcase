@@ -1,6 +1,6 @@
-package lombokstreamporn;
+package distinctstream;
 
-import static lombokstreamporn.Streams.distinctCollector;
+import static distinctstream.Streams.distinctCollector;
 import static org.assertj.core.api.Assertions.assertThat;
 
 import java.util.Arrays;
@@ -8,6 +8,8 @@ import java.util.stream.Stream;
 
 import org.junit.jupiter.api.Test;
 
+import distinctstream.Person;
+import distinctstream.Streams;
 import lombok.experimental.ExtensionMethod;
 
 @ExtensionMethod(Streams.class)
